@@ -1,0 +1,17 @@
+
+blockedIPs:
+  - '192.168.8.45'
+  - '192.168.0.1'
+
+sqlInjecPatterns:
+  - '(\%27)|(\")|(\-\-)|(\%23)|(#)'
+  - '(\%22)|(\")|(\%3B)|(;)'
+  - '\b(SELECT|UPDATE|DELETE|INSERT|WHERE|DROP|UNION|EXEC|FETCH|DECLARE|TRUNCATE)\b'
+
+validHeaders:
+- 'content-type'
+- 'user-agent'
+
+rateLimit:
+  windowMs: 900000  # 15 minutes in milliseconds
+  max: 100  # limit each IP to 100 requests per windowMs

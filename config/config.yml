@@ -1,0 +1,53 @@
+adminUrl: "/citrus"
+database:
+  host: ""
+  user: ""
+  pass: ""
+stack: 
+  lang: "" # The selection between Typescript, React, Python, C#/Blazor, PHP, Vue, Angular
+  style: "" # Berillium, Tailwind, Bootstrap
+  flavor: "" # This is the particular architecture server vs serverless etc
+  provider: "" # Cloud provider [AWS, Akamai, GCP, Azure, DigitalOcean]
+citrusOS:
+  enabled: "Yes"
+  theme: ""
+  version: ""
+  release: ""
+  releaseDate: ""
+  releaseNotes: ""
+  releaseLink: ""
+  releaseDocs: ""
+  releaseSupport: ""
+  releaseCommunity: ""
+  releaseStatus: ""
+nectarine:
+  db: ""
+  graph: "" 
+  auth: "" 
+  cache: "" 
+  search: "" 
+  migrations: "" # Manage database schema migrations
+  relations: "" # Define relationships between different tables/models
+  hooks: "" # Lifecycle hooks for models (e.g., beforeSave, afterDelete)
+  configUrl: "" # Path to necatrine-config.yml
+modules:
+  mail: "" 
+  queue: "" 
+  logging: True
+  loggingMech: "" 
+  monitoring: "" 
+  notifications: "" 
+  security: True
+  waf: ""
+  web: "" 
+  widgets: "" 
+extensions:
+  sso: "" 
+  analytics: "" 
+  billing: "" 
+  ecommerce: "" 
+  push: "" 
+  # sms: "" 
+  # voice: "" 
+  # video: ""
+  webcode: True

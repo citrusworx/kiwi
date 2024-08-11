@@ -1,0 +1,5 @@
+class Kernel {
+
+}
+
+new Kernel();
