@@ -1,0 +1,24 @@
+# node modules
+citrusOS/node_modules
+
+# Juice lib
+juice/
+
+# PHP Vendor
+php/app/vendor
+
+# React
+
+react/app/node_modules
+react-native/app/node_modules
+
+# Typescript
+
+typescript/app/node_modules
+
+# Vue
+
+vue/app/node_modules
+
+# Angular
+angular/app/node_modules
