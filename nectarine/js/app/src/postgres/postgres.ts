@@ -1,0 +1,5 @@
+class PostgresAdapter {
+
+}
+
+export { PostgresAdapter }

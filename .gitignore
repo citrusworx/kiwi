@@ -1,6 +1,10 @@
 # node modules
 citrusOS/node_modules
 
+# IDE files
+.idea
+.vscode
+
 # Juice lib
 juice/
 
