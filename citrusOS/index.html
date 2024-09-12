@@ -3,12 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/rkc1dxu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/citrusworx/juice@main/css/juice.css">
+    <script src="./util/components/appbar/appbar.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h2>Welcome to citrusOS</h2>
-    <p>
-        The number one tool to manage all of your web properties!
-    </p>
+    <section 
+        id="main"
+        class="h:90 w:full flex col items:center justify:start"
+    >
+        <h2 class="text:lg lobster tc-cornflower-300">Welcome to citrusOS</h2>
+        <p class="text:md poppins tc-green-400">
+            The number one tool to manage all of your web properties!
+        </p>
+        <!-- Using the custom app-bar element with attributes -->
+    <app-bar
+        background="bgc-green-500"
+        text="tc-royal-500 lobster"
+        hover=":hover-black-100"
+        border="border-color--red-500 border:sm solid"
+        shadow="ds:sm"
+        id="app-bar"
+    >
+    <h2 class="lobster">Some Component content</h2>
+    <p>Added a paragraph for additional testing.</p>
+</app-bar>
+    <h-2
+    background=""
+    text="tc-cornflower-500 bebas-neue"
+    hover=":hover-black-100"
+    border="border-color--red-500 border:sm solid"
+    shadow="ds:sm"
+    id="heading-test"
+    >
+    This is a heading
+    </h-2>
+    <h-3
+    background=""
+    text="tc-cornflower-500 poppins"
+    hover=":hover-black-100"
+    border="border-color--red-500 border:sm solid"
+    shadow="ds:sm"
+    id="heading-test"
+    >
+    This is a heading
+    </h-3>
+    </section>
+    <footer
+        id="toolbar"
+        class="h:10 w:full flex items:center bgc-green-500"
+    >   
+        <div
+        class="h:5 w:3 ml:rel:5 flex col items:center justify:center rounded:lg bgc-orange-500"
+        >
+        <i class="fas-solid desktop icon:sm icon:glacier"></i>
+
+        </div>
+        <div
+            id="app-bar"
+        >
+
+        </div>
+        <div
+        id="tool-bar"
+        >
+
+        </div>
+    </footer>
+    <script src="./util/components/appbar.js"></script>
+    <script type="module" src="./util/components/heading/heading.js"></script>
 </body>
 </html>
