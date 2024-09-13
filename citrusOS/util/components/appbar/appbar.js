@@ -26,7 +26,7 @@ function render(component, target) {
 
 // Create your AppBar component and render it to the DOM
 const appBar = AppBar({
-    background: 'bgc-green-500',
+    background: 'bgc-green-500 w:full h:8',
     text: 'tc-royal-500 lobster',
     border: 'border-color--royal-500',
     shadow: 'ds:sm',

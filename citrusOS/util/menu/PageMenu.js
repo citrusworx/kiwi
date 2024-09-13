@@ -86,13 +86,13 @@ const pageMenuTemplate = [
                 click() {
                     console.log('Create Post')
                 }
-             },
+            },
             { label: 'Edit Post',
                 accelerator: 'CmdOrCtrl+Shift+E',
                 click() {
                     console.log('Edit Post')
                 }
-             }
+            }
         ]
     },
     {

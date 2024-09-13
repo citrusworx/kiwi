@@ -11,44 +11,10 @@
 <body>
     <section 
         id="main"
-        class="h:90 w:full flex col items:center justify:start"
+        class="h:90 w:full bgc-green-300"
     >
-        <h2 class="text:lg lobster tc-cornflower-300">Welcome to citrusOS</h2>
-        <p class="text:md poppins tc-green-400">
-            The number one tool to manage all of your web properties!
-        </p>
-        <!-- Using the custom app-bar element with attributes -->
-    <app-bar
-        background="bgc-green-500"
-        text="tc-royal-500 lobster"
-        hover=":hover-black-100"
-        border="border-color--red-500 border:sm solid"
-        shadow="ds:sm"
-        id="app-bar"
-    >
-    <h2 class="lobster">Some Component content</h2>
-    <p>Added a paragraph for additional testing.</p>
-</app-bar>
-    <h-2
-    background=""
-    text="tc-cornflower-500 bebas-neue"
-    hover=":hover-black-100"
-    border="border-color--red-500 border:sm solid"
-    shadow="ds:sm"
-    id="heading-test"
-    >
-    This is a heading
-    </h-2>
-    <h-3
-    background=""
-    text="tc-cornflower-500 poppins"
-    hover=":hover-black-100"
-    border="border-color--red-500 border:sm solid"
-    shadow="ds:sm"
-    id="heading-test"
-    >
-    This is a heading
-    </h-3>
+    <!-- This is the desktop.  -->
+    <!-- Create icons for the desktop -->
     </section>
     <footer
         id="toolbar"
@@ -73,5 +39,6 @@
     </footer>
     <script src="./util/components/appbar.js"></script>
     <script type="module" src="./util/components/heading/heading.js"></script>
+    <script type="module" src="./util/desktop/draggableIcon.js"></script>
 </body>
 </html>
