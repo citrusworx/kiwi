@@ -5,7 +5,7 @@ database:
   pass: ""
 stack: 
   lang: "" # The selection between Typescript, React, Python, C#/Blazor, PHP, Vue, Angular
-  style: "" # Berillium, Tailwind, Bootstrap
+  style: "" # Juice, Tailwind, Bootstrap
   flavor: "" # This is the particular architecture server vs serverless etc
   provider: "" # Cloud provider [AWS, Akamai, GCP, Azure, DigitalOcean]
 citrusOS:

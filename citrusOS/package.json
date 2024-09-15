@@ -1,0 +1,21 @@
+{
+  "name": "citrusos",
+  "version": "1.0.0",
+  "description": "CitrusOS",
+  "main": "main.js",
+  "author": "CitrusOS",
+  "license": "MIT",
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "private": true,
+  "devDependencies": {
+    "electron": "^32.0.2"
+  }
+}
