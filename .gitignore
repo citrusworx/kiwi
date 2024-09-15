@@ -1,6 +1,7 @@
 # node modules
 citrusOS/node_modules
-
+.idea
+.vs
 # Juice lib
 juice/
 
