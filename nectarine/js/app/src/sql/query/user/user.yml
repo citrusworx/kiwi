@@ -1,0 +1,17 @@
+user:
+  getUserByAge:
+    type: select
+    table: users
+    fields:
+      id,
+      name
+    conditions:
+      condition: 'WHERE'
+      column: age
+      operator: '>'
+      value: 30
+  getAllUsers:
+    type: select
+    table: users
+    fields: '*'
+  

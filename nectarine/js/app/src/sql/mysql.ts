@@ -1,0 +1,5 @@
+class MySQLAdapter {
+
+}
+
+export { MySQLAdapter }

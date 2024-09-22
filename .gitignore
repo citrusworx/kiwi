@@ -1,6 +1,7 @@
 # node modules
 citrusOS/node_modules
 .vs
+.env
 # Juice lib
 juice/
 
@@ -22,3 +23,12 @@ vue/app/node_modules
 
 # Angular
 angular/app/node_modules
+
+# Nectarine
+nectarine/node_modules
+nectarine/config.yml
+
+# Grapevine
+grapevine/node_modules
+grapevine/config.yml
+grapevine/.env

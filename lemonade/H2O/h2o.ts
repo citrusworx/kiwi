@@ -34,6 +34,10 @@ class H2O {
         this.responseType = options.responseType || 'json';
     }
 
+    use(){
+        // Use the middleware
+        return this;
+    }
     async fetch(input: RequestInfo, init?: RequestInit): Promise<Response> {
         const request = new Request(input, init);
         const cache = this.cache;

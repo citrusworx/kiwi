@@ -1,0 +1,6 @@
+FROM alpine:latest
+
+# WORKDIR
+WORKDIR /usr/src/app
+
+#

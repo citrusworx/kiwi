@@ -1,0 +1,12 @@
+# Copy and paste for multiple databases
+engine: 'postgres' # postgres | mysql | sqlite | sqlserver | oracle | mssql | mariadb
+connectionString: '' # Command line connection string
+username: '${DB_PUSER}'
+dbname: '${DB_PNAME}'
+pass: '${DB_PPASS}'
+port: '${DB_PPORT}'
+host: '${DB_HOST}'
+
+# Extensions
+dynamicQuery: false
+graphiql: false
