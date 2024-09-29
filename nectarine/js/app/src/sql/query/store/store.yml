@@ -34,3 +34,11 @@ store:
       combo:
       - price >= :minPrice
       - price <= :maxPrice
+  filterProductsByTag:
+    type: select
+    table: products
+    fields: '*'
+    conditions:
+      condition: 'WHERE'
+      combo:
+      - tag = :tags
