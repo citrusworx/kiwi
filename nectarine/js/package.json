@@ -2,5 +2,14 @@
   "name": "js",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.7.3",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "argparse": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0"
+  }
 }

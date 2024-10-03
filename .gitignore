@@ -2,8 +2,10 @@
 citrusOS/node_modules
 .vs
 .env
+
 # Juice lib
 juice/
+juice
 
 # PHP Vendor
 php/app/vendor
@@ -26,6 +28,7 @@ angular/app/node_modules
 
 # Nectarine
 nectarine/node_modules
+nectarine/js/node_modules
 nectarine/config.yml
 
 # Grapevine
