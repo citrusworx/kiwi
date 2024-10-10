@@ -1,0 +1,13 @@
+{
+    "name": "kiwipress",
+    "version": "1.0.0",
+    "main": "script.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "dotenv": "^16.4.5"
+    }
+}

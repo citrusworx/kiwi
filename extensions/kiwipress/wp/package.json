@@ -1,0 +1,8 @@
+{
+  "name": "kiwipress",
+  "version": "1.1.0",
+  "main": "wp-sync.js",
+  "license": "MIT",
+  "dependencies": {},
+  "type": "module"
+}

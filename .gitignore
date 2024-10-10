@@ -7,6 +7,11 @@ citrusOS/node_modules
 juice/
 juice
 
+# KiwiPress
+extensions/kiwipress/node_modules
+extensions/kiwipress/themes/*/node_modules
+
+
 # PHP Vendor
 php/app/vendor
 

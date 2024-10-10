@@ -1,5 +1,6 @@
 {
     "yaml.schemas": {
-        "https://json.schemastore.org/cirrus.json": "file:///f%3A/Dev/berilliumCMS/typescript/app/src/kernel/mods/security/waf_rules.yml"
+        "https://json.schemastore.org/cirrus.json": "file:///f%3A/Dev/berilliumCMS/typescript/app/src/kernel/mods/security/waf_rules.yml",
+        "https://json.schemastore.org/yamllint.json": "file:///e%3A/Citrusworx/kiwi/typescript/app/src/kernel/mods/security/waf_rules.yml"
     }
 }

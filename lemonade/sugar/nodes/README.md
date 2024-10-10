@@ -103,4 +103,4 @@ To build your app’s logic, you need to connect SugarCubes together using **wir
 
 SugarCubes make visual scripting easy and efficient in Sugar by providing a rich set of nodes that cover all the necessary aspects of application logic. Whether you're building a simple interaction or a complex data-driven app, SugarCubes provide a flexible, no-code/low-code way to define how your app behaves and responds to user input.
 
-To dive deeper into each type of SugarCube and explore their properties and options, please refer to the full [SugarCubes Documentation](https://docs.sugarapp.com/sugarcubes). Happy building
+To dive deeper into each type of SugarCube and explore their properties and options, please refer to the full [SugarCubes Documentation](https://docs.sugarapp.com/sugarcubes). Happy building!

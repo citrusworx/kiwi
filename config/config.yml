@@ -1,15 +1,18 @@
 adminUrl: "/citrus"
+
 database:
   host: ""
   user: ""
   pass: ""
+
 stack: 
   lang: "" # The selection between Typescript, React, Python, C#/Blazor, PHP, Vue, Angular
   style: "" # Juice, Tailwind, Bootstrap
   flavor: "" # This is the particular architecture server vs serverless etc
   provider: "" # Cloud provider [AWS, Akamai, GCP, Azure, DigitalOcean]
+
 citrusOS:
-  enabled: "Yes"
+  enabled: true
   theme: ""
   version: ""
   release: ""
@@ -20,6 +23,7 @@ citrusOS:
   releaseSupport: ""
   releaseCommunity: ""
   releaseStatus: ""
+
 nectarine:
   db: ""
   graph: "" 
@@ -30,17 +34,19 @@ nectarine:
   relations: "" # Define relationships between different tables/models
   hooks: "" # Lifecycle hooks for models (e.g., beforeSave, afterDelete)
   configUrl: "" # Path to necatrine-config.yml
+
 modules:
   mail: "" 
   queue: "" 
-  logging: True
+  logging: true
   loggingMech: "" 
   monitoring: "" 
   notifications: "" 
-  security: True
+  security: true
   waf: ""
   web: "" 
   widgets: "" 
+
 extensions:
   sso: "" 
   analytics: "" 
@@ -50,4 +56,4 @@ extensions:
   # sms: "" 
   # voice: "" 
   # video: ""
-  webcode: True
+  webcode: true
