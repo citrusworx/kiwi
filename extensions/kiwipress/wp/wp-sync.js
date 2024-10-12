@@ -44,10 +44,6 @@ class WPSync {
     static plugins;
     static plugins_active;
     static plugins_inactive;
-    // Add plugins
-    static activate_plugins;
-    static deactivate_plugins;
-    
 
 
     constructor(){
@@ -67,7 +63,6 @@ class WPSync {
     }
 
     // Post Methods
-    // TODO: Get Post Content
     // TODO: Get Post Author and Bio
     // TODO: Get Comments
 
@@ -94,6 +89,7 @@ class WPSync {
         // Get post
         fetch_protocol(url + '/' + post_id).then(data => {
             console.log(data.content.rendered);
+            return data.content.rendered;
         });
     }
 
@@ -139,8 +135,36 @@ class WPSync {
     }
 
     // Product Methods (WooCommerce)
-    get_products(){
+    // Perhaps create a method that returns data that we can send into UI components.
+    get_products(url){
         // Get products
+        fetch_protocol(url)
+        .then(data => {
+            data.forEach(product => {
+                console.log('Success!')
+                console.log(product.title.rendered);
+                return product.title.rendered;
+            });
+        });
+    }
+
+    // bbPress Forum Methods
+    get_forums(url){
+        // Get forums
+        fetch_protocol(url)
+        .then(data => {
+            data.forEach(forum => {
+                console.log(forum.post_title);
+            });
+        });
+    }
+
+    get_forum(url, id){
+        // Get forum
+        fetch_protocol(url + '/' + id)
+        .then(data => {
+            console.log(data.post_title);
+        });
     }
 
 }
