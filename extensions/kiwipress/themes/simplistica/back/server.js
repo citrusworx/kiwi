@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import WPSync from 'kiwipress';
+import routes from './routes/routes.js';
 
 dotenv.config();
 
@@ -34,32 +35,16 @@ server.use(cors({
     credentials: true, // Allow credentials if required
 }));
 server.use(express.json());
+server.use('/api', routes);
 
-server.get('/posts', async (req, res) => {
-    try {
-        const response = await fetch(`${process.env.WP_POSTS}`);
-        const data = await response.json();
-        
-        if (!data || data.length === 0) {
-            return res.status(404).json({ message: 'No posts found' });
-        }
-
-        return res.json(data);
-    } catch (error) {
-        console.error('Error fetching posts:', error);
-        return res.status(500).json({ error: 'Failed to fetch posts' });
-    }
-});
-
-server.get('/', (req, res) => {
-    res.json(
+server.get('/check', (req, res) => {
+    return res.status(200).json(
         {
-            "message": 'Hello World'
+            message: 'API is live.'
         }
-    )
-})
+    );
+});
 
 server.listen(PORT, () => {
     console.log('Server is listening on port: ' + PORT);
-    // console.log(wp.get_posts(`${process.env.WP_POSTS}`))
 })

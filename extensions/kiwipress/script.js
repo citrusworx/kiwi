@@ -1,4 +1,4 @@
-import WPSync from "./wp/wp-sync.js";
+import { WPSync } from "./wp/wp-sync.js";
 import dotenv from "dotenv";
 const wp = new WPSync();
 dotenv.config();
@@ -6,4 +6,3 @@ dotenv.config();
 wp.get_users(`${process.env.WP_USERS}`);
 wp.get_published_posts(`${process.env.WP_POSTS}`);
 wp.get_products(`${process.env.WOO_PRODUCTS}`);
-wp.get_forums(`${process.env.WP_FORUMS}`)

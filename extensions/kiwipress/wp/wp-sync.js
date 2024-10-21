@@ -2,13 +2,7 @@
 
 async function fetch_protocol(url, user, pass)
 {
-    const response = await fetch(url, {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Basic ' + btoa(`${user}:${pass}`)
-        }
-    });
+    const response = await fetch(url);
 
     if(!response.ok)
     {
@@ -24,42 +18,18 @@ async function fetch_protocol(url, user, pass)
 
 class WPSync {
     
-    static wp_posts;
-    static wp_terms;
-    static wp_pages;
-    static wp_media;
-    static wp_users;
-    static wp_comments;
-    static wp_options;
-    static wp_categories;
-    static wp_tags;
-    static wp_custom;
-    static wp_custom_taxonomies;
-    static wp_custom_post_types;
-    static wp_custom_post_statuses;
-    static wp_custom_post_formats;
-    static wp_custom_post_revisions;
-    static wp_url;
-    // Get plugins
-    static plugins;
-    static plugins_active;
-    static plugins_inactive;
+    static wpurl = {
+        posts: '',
+        pages: '',
+        menus: '',
+        users: '',
+        products: '',
+        forums: ''
+    };
 
 
     constructor(){
         // const h2o = new h2o(h2oOptions);
-    }
-
-    // Create a function that gets the status of a plugin to see if it needs to update. Maybe cache the response every 3 days?
-    static get_plugin_status(plugin){
-        // Get plugin status
-    }
-
-    static deactivate_plugins(plugins){
-        //
-        plugins.forEach(plugin => {
-            // Deactivate API Call
-        });
     }
 
     // Post Methods
@@ -70,7 +40,7 @@ class WPSync {
         // Get posts
         fetch_protocol(url).then(data => {
             data.forEach(post => {
-                console.log(post.title.rendered);
+                return (post.title.rendered);
             });
         });
     }
@@ -169,4 +139,4 @@ class WPSync {
 
 }
 
-export default WPSync;
+export { WPSync, fetch_protocol };
