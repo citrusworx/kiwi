@@ -1,7 +1,7 @@
 {
-  "name": "kiwipress",
-  "version": "1.1.1",
-  "main": "wp-sync.js",
+  "name": "front",
+  "version": "1.0.0",
+  "main": "index.tsx",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.25.8",
@@ -26,16 +26,14 @@
     "webpack-dev-server": "^5.1.0",
     "webpack-dotenv": "^0.0.3"
   },
-  "type": "module",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "dotenv-webpack": "^8.1.0",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1"
-  },
-  "exclude": [
-    "node_modules",
-    "public",
-    "src"
-  ]
+  }
 }
