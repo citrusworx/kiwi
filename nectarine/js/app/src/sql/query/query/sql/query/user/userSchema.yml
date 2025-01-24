@@ -1,0 +1,28 @@
+users:
+  columns:
+    -name: id
+    type: SERIAL
+    primary: true
+    -name: name
+    type: varchar(255)
+    nullable: false
+    -name: email
+    type: varchar(255)
+    unique: true
+    -name: age
+    type: INT
+    -name: address
+    type: varchar(255)
+    nullable: false
+    -name: city
+    type: varchar(50)
+    nullable: false
+    -name: state
+    type: varchar(50)
+    nullable: false
+    -name: zipcode
+    type: INT
+    nullable: false
+    -name: phone
+    type: INT
+    nullable: true

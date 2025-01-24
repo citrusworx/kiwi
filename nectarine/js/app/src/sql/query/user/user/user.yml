@@ -1,0 +1,54 @@
+user:
+  get:
+    userByAge:
+      type: SELECT
+      table: users
+      fields:
+        id,
+        name
+      conditions:
+        condition: 'WHERE'
+        column: age
+        operator: '>'
+        value: $1
+
+    AllUsers:
+      type: SELECT
+      table: users
+      fields: '*'
+
+      UserById:
+        type: SELECT
+        table: users
+        fields:
+          id
+        conditions:
+          condition: 'WHERE'
+          column: id
+          operator: '='
+          value: $1
+
+    UsersByEmail:
+      type: SELECT
+      table: users
+      fields:
+        email
+      conditions:
+        condition: 'WHERE'
+        column: email
+        operator: '='
+        value: $1
+  update:
+    userById:
+        type: UPDATE
+        table: users
+        updates:
+          -column: name
+          value: $1
+          -column: age
+          value: $2
+        conditions:
+          condition: 'WHERE'
+          column: id
+          operator: '='
+          value: $3

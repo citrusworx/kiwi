@@ -1,0 +1,25 @@
+user:
+  get:
+    allUsers:
+      api:
+        method: GET
+        endpoint: /users
+    usersById:
+      api:
+        method: GET
+        endpoint: /users/:id
+  create:
+    user:
+        api:
+          method: POST
+          endpoint: /users
+  update:
+    user:
+      api:
+        method: PUT
+        endpoint: users/:id
+  delete:
+    user:
+      api:
+        method: DELETE
+        endpoint: users/:id

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navlink {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: gray;
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+#root {
+  width: 90vw;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h2 {
+  color: blue;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+ font-family: 'Arial', sans-serif;
+ font-size: 1.2rem;
+ font-weight: 100;
+}
