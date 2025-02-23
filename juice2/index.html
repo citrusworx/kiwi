@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/juice.css">
+    <title>Juice2</title>
+</head>
+<body id="canvas" class="bgc-obsidian-700" data-jc-theme="test">
+    <div class="w:full%">
+        <nav class="flex h:5 w:100 bgc-green-400 justify:between justify-around px:rel:10">
+            <div><span>Logo Text</span></div>
+            <ul class="flex gap-2 items-center justify-center">
+                <li class="korolev-rounded text:md">Link</li>
+                <li class="korolev-rounded text:md">Link</li>
+                <li class="korolev-rounded text:md">Link</li>
+                <li class="korolev-rounded text:md">Link</li>
+                <li class="korolev-rounded text:md">Link</li>
+            </ul>
+        </nav>
+    </div>
+    <main class="shell flex col items:center top w:90%" id="app-root">
+
+        <section class="container hero:dark" id="hero-container">
+            <div class=" wrapper hero:content" id="text-box-wrapper">
+                <h2 class="text:xlg tc-black-200 p:rel:5">The Expressive, Extensive UI Library</h2>
+                <p class="text:md text:justify px:rel:2">
+                Get a complete UI-building library complete with components, logic, and easter eggs---behind no pay wall! Everything we develop for Juice2 is completely <strong>free to use</strong>.
+                </p>
+
+                <div class="m:auto w:40% py:rel:2 fw:no-wrap">
+                    <button class="btn:flat rounded:md bgc-green-600 w:99% text:md h:99% korolev-rounded tc-black-700">Click Here</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container w:80% grad--white-down-100 pb:rel:5">
+            <h2 class="heading padded">Form Maker</h2>
+            <div class="w:80% container" id="containment">
+                <form action="#" class="flex col">
+                    <div class="the margin is five">
+                        <div>
+                            <h3>App Information</h3>
+                            <p>
+                                This is a name that will label your application in your dashboard. Please use something that you will identify later and not something random.
+                            </p>
+                        </div>
+                        <div class="mt:5 wrapper">
+                            <label for="name-of-app">App Name</label> <input type="text" name="app-name" id="app-name-field" data-jc-form="text-field" title="App Name">
+                        </div>
+                    </div>
+                    <div class="mt:5 wrapper">
+                        <label for="site-url" title="App URL">App URL</label><input type="url" name="site-url" id="app-url" data-jc-form="url-field" title="App URL">
+                        <div class="mt:5">
+                            <p>Do you have a custom domain?</p>
+                            <fieldset class="w:full% flex grow-1 fw:wrap gap-1">
+                                <label for="yes">Yes </label><input type="radio" name="yesno" id="yes-radio" title="Yes"/>
+                                <label for="no">No </label><input type="radio" name="yesno" id="no-radio" title="No" />
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="mt:5 wrapper" id="server-options-container">
+                        <h3 class="">Server Size</h3>
+                        <select title="server-options" id="server-select">
+                            <optgroup label="Servers" id="server-options">
+                                <option value="">Pick a Server</option>
+                                <option value="small">Starter Server</option>
+                                <option value="medium">Medium Server</option>
+                                <option value="large">Large Server</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="mt:5 wrapper" id="location-options-container">
+                        <h3>Server Location</h3>
+                        <select title="location-options" id="location-select">
+                            <optgroup label="Servers" id="location-options">
+                                <option value="" disabled selected>Pick a Server Location</option>
+                                <option value="atl">Atlanta, GA</option>
+                                <option value="mia">Miami, FL</option>
+                                <option value="aus">Austin, TX</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="mt:10">
+                        <h3>Contact Information</h3>
+                        <div class="my:3 w:full% flex gap:1">
+                            <label for="name">Name</label>
+                                <input type="text" name="lname" id="last-name-field" placeholder="First" title"First Name">
+                                <input type="text" name="fname" id="first-name-field" placeholder="Last" title="Last Name">
+                        </div>
+                        <div class="my:3 flex w:full%">
+                            <label for="email">Email <input type="email" name="email" id="email-field" placeholder="yourname@domain.com"></label>
+                        </div>
+                        <div class="my:3 w:full%">
+                            <label for="phone">Phone Number <input type="tel" name="phone" id="phone-field" placeholder="555555555"></label>
+                        </div>
+                        <div class="my:3 flex w:full%">
+                            <label for="address">Address <input type="text" name="adress" id="address-field" placeholder="123 ABC St."></label>
+                        </div>
+                        <div class="my:3 flex items:center space-between w:full% gap:5">
+                            <label for="city">City <input type="text" name="city" id="city-field" placeholder="Hollywood"></label>
+                            <label for="state">State <input type="text" name="state" id="state-field" placeholder="Florida"></label>
+                            <label for="zipcode">Zipcode <input type="number" name="zipcode" id="zip-field" placeholder="12345" pattern="[0-9]{5}"></label>
+                        </div>
+                        <div class="my:3">
+
+                        </div>
+                    </div>
+                    <div class="mt:10" id="billing-information">
+                        <h3>Billing Information</h3>
+                        <div class="flex fw-wrap w:80% gap:5">
+                            <div class="mt:5">
+                                <label for="cc">Credit/Debit Card <input type="number" name="cc" id="cc-field" placeholder="1234 5678 9012 3456"></label>
+                            </div>
+                            <div class="mt:5">
+                                <label for="exp">Exp <input type="number" name="exp" id="exp-field" placeholder="05 25"></label>
+                            </div>
+                            <div class="mt:5">
+                                <label for="ccv">CCV <input type="number" name="ccv" id="ccv-field" placeholder="123"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="row">
+            <div class="col bgc-green-400">
+                <p>Data One</p>
+                <fas-icon
+                  lib="solid"
+                  name="addressbook"
+                  color="icon:red-400"
+                  class="icon:md :hover-red-200"></fas-icon>
+            </div>
+            <div class="col bgc-blue-400">
+                <p>Data Two</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+    <script src="./css/highlight/highlight.js"></script>
+    <script src="./js/juice/icon.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+:root {
+    --creamsicle-lgrad: linear-gradient();
+    --creamsicle-rgrad: radial-gradient();
+}
+
+/*  Oranges  */
+
+.bg\:grad.charmander {
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+.icon\:charmander {
+        display: inline-block;
+        background-color: #FFE53B;
+        background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+        background-size: cover;
+        background-repeat: no-repeat;
+}

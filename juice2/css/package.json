@@ -1,0 +1,23 @@
+{
+  "name": "lemonjuice-ui",
+  "version": "1.0.0",
+  "description": "The comprehensive, expressive styling and UI library",
+  "main": "juice.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrusworx/juice.git"
+  },
+  "keywords": [
+    "css",
+    "ui"
+  ],
+  "author": "Citrusworx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citrusworx/juice/issues"
+  },
+  "homepage": "https://github.com/citrusworx/juice#readme"
+}

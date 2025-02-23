@@ -1,0 +1,835 @@
+/* 
+    Style                   Type                Value
+    p(l,r,t,b,x,y)      :    rel          :    [1-25]
+    p(l,r,t,b,x,y)      :    v(h/w)       :    [1-15]      
+    p(l,r,t,b,x,y)      :    px           :    [1-50]
+*/
+.p\:rel\:1 {
+    padding: 0.2rem;
+}
+
+.p\:rel\:2 {
+    padding: 0.4rem;
+}
+
+.p\:rel\:3 {
+    padding: 0.6rem;
+}
+
+.p\:rel\:4 {
+    padding: 0.8rem;
+}
+
+.p\:rel\:5 {
+    padding: 1rem;
+}
+
+.p\:rel\:6 {
+    padding: 1.2rem;
+}
+
+.p\:rel\:7 {
+    padding: 1.4rem;
+}
+
+.p\:rel\:8 {
+    padding: 1.6rem;
+}
+
+.p\:rel\:9 {
+    padding: 1.8rem;
+}
+
+.p\:rel\:10 {
+    padding: 2rem;
+}
+
+.p\:rel\:11 {
+    padding: 2.2rem;
+}
+
+.p\:rel\:12 {
+    padding: 2.4rem;
+}
+
+.p\:rel\:13 {
+    padding: 2.6rem;
+}
+
+.p\:rel\:14 {
+    padding: 2.8rem;
+}
+
+.p\:rel\:15 {
+    padding: 3rem;
+}
+
+.p\:rel\:16 {
+    padding: 3.2rem;
+}
+
+.p\:rel\:17 {
+    padding: 3.4rem;
+}
+
+.p\:rel\:18 {
+    padding: 3.6rem;
+}
+
+.p\:rel\:19 {
+    padding: 3.8rem;
+}
+
+.p\:rel\:20 {
+    padding: 4rem;
+}
+
+.p\:rel\:21 {
+    padding: 4.2rem;
+}
+
+.p\:rel\:22 {
+    padding: 4.4rem;
+}
+
+.p\:rel\:23 {
+    padding: 4.6rem;
+}
+
+.p\:rel\:24 {
+    padding: 4.8rem;
+}
+
+.p\:rel\:25 {
+    padding: 5rem;
+}
+
+
+/* 
+    LEFT
+*/
+.pl\:rel\:1 {
+    padding-left: 0.2rem;
+}
+
+.pl\:rel\:2 {
+    padding-left: 0.4rem;
+}
+
+.pl\:rel\:3 {
+    padding-left: 0.6rem;
+}
+
+.pl\:rel\:4 {
+    padding-left: 0.8rem;
+}
+
+.pl\:rel\:5 {
+    padding-left: 1rem;
+}
+
+.pl\:rel\:6 {
+    padding-left: 1.2rem;
+}
+
+.pl\:rel\:7 {
+    padding-left: 1.4rem;
+}
+
+.pl\:rel\:8 {
+    padding-left: 1.6rem;
+}
+
+.pl\:rel\:9 {
+    padding-left: 1.8rem;
+}
+
+.pl\:rel\:10 {
+    padding-left: 2rem;
+}
+
+.pl\:rel\:11 {
+    padding-left: 2.2rem;
+}
+
+.pl\:rel\:12 {
+    padding-left: 2.4rem;
+}
+
+.pl\:rel\:13 {
+    padding-left: 2.6rem;
+}
+
+.pl\:rel\:14 {
+    padding-left: 2.8rem;
+}
+
+.pl\:rel\:15 {
+    padding-left: 3rem;
+}
+
+.pl\:rel\:16 {
+    padding-left: 3.2rem;
+}
+
+.pl\:rel\:17 {
+    padding-left: 3.4rem;
+}
+
+.pl\:rel\:18 {
+    padding-left: 3.6rem;
+}
+
+.pl\:rel\:19 {
+    padding-left: 3.8rem;
+}
+
+.pl\:rel\:20 {
+    padding-left: 4rem;
+}
+
+.pl\:rel\:21 {
+    padding-left: 4.2rem;
+}
+
+.pl\:rel\:22 {
+    padding-left: 4.4rem;
+}
+
+.pl\:rel\:23 {
+    padding-left: 4.6rem;
+}
+
+.pl\:rel\:24 {
+    padding-left: 4.8rem;
+}
+
+.pl\:rel\:25 {
+    padding-left: 5rem;
+}
+
+/* 
+    RIGHT
+*/
+
+.pr\:rel\:1 {
+    padding-right: 0.2rem;
+}
+
+.pr\:rel\:2 {
+    padding-right: 0.4rem;
+}
+
+.pr\:rel\:3 {
+    padding-right: 0.6rem;
+}
+
+.pr\:rel\:4 {
+    padding-right: 0.8rem;
+}
+
+.pr\:rel\:5 {
+    padding-right: 1rem;
+}
+
+.pr\:rel\:6 {
+    padding-right: 1.2rem;
+}
+
+.pr\:rel\:7 {
+    padding-right: 1.4rem;
+}
+
+.pr\:rel\:8 {
+    padding-right: 1.6rem;
+}
+
+.pr\:rel\:9 {
+    padding-right: 1.8rem;
+}
+
+.pr\:rel\:10 {
+    padding-right: 2rem;
+}
+
+.pr\:rel\:11 {
+    padding-right: 2.2rem;
+}
+
+.pr\:rel\:12 {
+    padding-right: 2.4rem;
+}
+
+.pr\:rel\:13 {
+    padding-right: 2.6rem;
+}
+
+.pr\:rel\:14 {
+    padding-right: 2.8rem;
+}
+
+.pr\:rel\:15 {
+    padding-right: 3rem;
+}
+
+.pr\:rel\:16 {
+    padding-right: 3.2rem;
+}
+
+.pr\:rel\:17 {
+    padding-right: 3.4rem;
+}
+
+.pr\:rel\:18 {
+    padding-right: 3.6rem;
+}
+
+.pr\:rel\:19 {
+    padding-right: 3.8rem;
+}
+
+.pr\:rel\:20 {
+    padding-right: 4rem;
+}
+
+.pr\:rel\:21 {
+    padding-right: 4.2rem;
+}
+
+.pr\:rel\:22 {
+    padding-right: 4.4rem;
+}
+
+.pr\:rel\:23 {
+    padding-right: 4.6rem;
+}
+
+.pr\:rel\:24 {
+    padding-right: 4.8rem;
+}
+
+.pr\:rel\:25 {
+    padding-right: 5rem;
+}
+
+
+
+/* 
+    TOP
+*/
+.pt\:rel\:1 {
+    padding-top: 0.2rem;
+}
+
+.pt\:rel\:2 {
+    padding-top: 0.4rem;
+}
+
+.pt\:rel\:3 {
+    padding-top: 0.6rem;
+}
+
+.pt\:rel\:4 {
+    padding-top: 0.8rem;
+}
+
+.pt\:rel\:5 {
+    padding-top: 1rem;
+}
+
+.pt\:rel\:6 {
+    padding-top: 1.2rem;
+}
+
+.pt\:rel\:7 {
+    padding-top: 1.4rem;
+}
+
+.pt\:rel\:8 {
+    padding-top: 1.6rem;
+}
+
+.pt\:rel\:9 {
+    padding-top: 1.8rem;
+}
+
+.pt\:rel\:10 {
+    padding-top: 2rem;
+}
+
+.pt\:rel\:11 {
+    padding-top: 2.2rem;
+}
+
+.pt\:rel\:12 {
+    padding-top: 2.4rem;
+}
+
+.pt\:rel\:13 {
+    padding-top: 2.6rem;
+}
+
+.pt\:rel\:14 {
+    padding-top: 2.8rem;
+}
+
+.pt\:rel\:15 {
+    padding-top: 3rem;
+}
+
+.pt\:rel\:16 {
+    padding-top: 3.2rem;
+}
+
+.pt\:rel\:17 {
+    padding-top: 3.4rem;
+}
+
+.pt\:rel\:18 {
+    padding-top: 3.6rem;
+}
+
+.pt\:rel\:19 {
+    padding-top: 3.8rem;
+}
+
+.pt\:rel\:20 {
+    padding-top: 4rem;
+}
+
+.pt\:rel\:21 {
+    padding-top: 4.2rem;
+}
+
+.pt\:rel\:22 {
+    padding-top: 4.4rem;
+}
+
+.pt\:rel\:23 {
+    padding-top: 4.6rem;
+}
+
+.pt\:rel\:24 {
+    padding-top: 4.8rem;
+}
+
+.pt\:rel\:25 {
+    padding-top: 5rem;
+}
+
+
+
+/* 
+    BOTTOM
+*/
+.pb\:rel\:1 {
+    padding-bottom: 0.2rem;
+}
+
+.pb\:rel\:2 {
+    padding-bottom: 0.4rem;
+}
+
+.pb\:rel\:3 {
+    padding-bottom: 0.6rem;
+}
+
+.pb\:rel\:4 {
+    padding-bottom: 0.8rem;
+}
+
+.pb\:rel\:5 {
+    padding-bottom: 1.0rem;
+}
+
+.pb\:rel\:6 {
+    padding-bottom: 1.2rem;
+}
+
+.pb\:rel\:7 {
+    padding-bottom: 1.4rem;
+}
+
+.pb\:rel\:8 {
+    padding-bottom: 1.6rem;
+}
+
+.pb\:rel\:9 {
+    padding-bottom: 1.8rem;
+}
+
+.pb\:rel\:10 {
+    padding-bottom: 2.0rem;
+}
+
+.pb\:rel\:11 {
+    padding-bottom: 2.2rem;
+}
+
+.pb\:rel\:12 {
+    padding-bottom: 2.4rem;
+}
+
+.pb\:rel\:13 {
+    padding-bottom: 2.6rem;
+}
+
+.pb\:rel\:14 {
+    padding-bottom: 2.8rem;
+}
+
+.pb\:rel\:15 {
+    padding-bottom: 3.0rem;
+}
+
+.pb\:rel\:16 {
+    padding-bottom: 3.2rem;
+}
+
+.pb\:rel\:17 {
+    padding-bottom: 3.4rem;
+}
+
+.pb\:rel\:18 {
+    padding-bottom: 3.6rem;
+}
+
+.pb\:rel\:19 {
+    padding-bottom: 3.8rem;
+}
+
+.pb\:rel\:20 {
+    padding-bottom: 4.0rem;
+}
+
+.pb\:rel\:21 {
+    padding-bottom: 4.2rem;
+}
+
+.pb\:rel\:22 {
+    padding-bottom: 4.4rem;
+}
+
+.pb\:rel\:23 {
+    padding-bottom: 4.6rem;
+}
+
+.pb\:rel\:24 {
+    padding-bottom: 4.8rem;
+}
+
+.pb\:rel\:25 {
+    padding-bottom: 5.0rem;
+}
+
+/* 
+    HORIZONTAL STYLES
+*/
+
+.px\:rel\:1 {
+    padding: 0 0.2rem;
+}
+
+.px\:rel\:2 {
+    padding: 0 0.4rem;
+}
+
+.px\:rel\:3 {
+    padding: 0 0.6rem;
+}
+
+.px\:rel\:4 {
+    padding: 0 0.8rem;
+}
+
+.px\:rel\:5 {
+    padding: 0 1rem;
+}
+
+.px\:rel\:6 {
+    padding: 0 1.2rem;
+}
+
+.px\:rel\:7 {
+    padding: 0 1.4rem;
+}
+
+.px\:rel\:8 {
+    padding: 0 1.6rem;
+}
+
+.px\:rel\:9 {
+    padding: 0 1.8rem;
+}
+
+.px\:rel\:10 {
+    padding: 0 2rem;
+}
+
+.px\:rel\:11 {
+    padding: 0 2.2rem;
+}
+
+.px\:rel\:12 {
+    padding: 0 2.4rem;
+}
+
+.px\:rel\:13 {
+    padding: 0 2.6rem;
+}
+
+.px\:rel\:14 {
+    padding: 0 2.8rem;
+}
+
+.px\:rel\:15 {
+    padding: 0 3rem;
+}
+
+.px\:rel\:16 {
+    padding: 0 3.2rem;
+}
+
+.px\:rel\:17 {
+    padding: 0 3.4rem;
+}
+
+.px\:rel\:18 {
+    padding: 0 3.6rem;
+}
+
+.px\:rel\:19 {
+    padding: 0 3.8rem;
+}
+
+.px\:rel\:20 {
+    padding: 0 4rem;
+}
+
+.px\:rel\:21 {
+    padding: 0 4.2rem;
+}
+
+.px\:rel\:22 {
+    padding: 0 4.4rem;
+}
+
+.px\:rel\:23 {
+    padding: 0 4.6rem;
+}
+
+.px\:rel\:24 {
+    padding: 0 4.8rem;
+}
+
+.px\:rel\:25 {
+    padding: 0 5rem;
+}
+
+/* 
+      VERTICAL 
+*/
+
+.py\:rel\:1 {
+    padding: 0.2rem;
+}
+
+.py\:rel\:2 {
+    padding: 0.4rem 0;
+}
+
+.py\:rel\:3 {
+    padding: 0.6rem 0;
+}
+
+.py\:rel\:4 {
+    padding: 0.8rem 0;
+}
+
+.py\:rel\:5 {
+    padding: 1rem 0;
+}
+
+.py\:rel\:6 {
+    padding: 1.2rem 0;
+}
+
+.py\:rel\:7 {
+    padding: 1.4rem 0;
+}
+
+.py\:rel\:8 {
+    padding: 1.6rem 0;
+}
+
+.py\:rel\:9 {
+    padding: 1.8rem 0;
+}
+
+.py\:rel\:10 {
+    padding: 2rem 0;
+}
+
+.py\:rel\:11 {
+    padding: 2.2rem 0;
+}
+
+.py\:rel\:12 {
+    padding: 2.4rem 0;
+}
+
+.py\:rel\:13 {
+    padding: 2.6rem 0;
+}
+
+.py\:rel\:14 {
+    padding: 2.8rem 0;
+}
+
+.py\:rel\:15 {
+    padding: 3rem 0;
+}
+
+.py\:rel\:16 {
+    padding: 3.2rem 0;
+}
+
+.py\:rel\:17 {
+    padding: 3.4rem 0;
+}
+
+.py\:rel\:18 {
+    padding: 3.6rem 0;
+}
+
+.py\:rel\:19 {
+    padding: 3.8rem 0;
+}
+
+.py\:rel\:20 {
+    padding: 4rem 0;
+}
+
+.py\:rel\:21 {
+    padding: 4.2rem 0;
+}
+
+.py\:rel\:22 {
+    padding: 4.4rem 0;
+}
+
+.py\:rel\:23 {
+    padding: 4.6rem 0;
+}
+
+.py\:rel\:24 {
+    padding: 4.8rem 0;
+}
+
+.py\:rel\:25 {
+    padding: 5rem 0;
+}
+
+/* 
+        COMBO
+*/
+
+.pxy\:rel\:1 {
+    padding: 0.2rem 0.2rem;
+}
+
+.pxy\:rel\:2 {
+    padding: 0.4rem 0.4rem;
+}
+
+.pxy\:rel\:3 {
+    padding: 0.6rem 0.6rem;
+}
+
+.pxy\:rel\:4 {
+    padding: 0.8rem 0.8rem;
+}
+
+.pxy\:rel\:5 {
+    padding: 1rem 1rem;
+}
+
+.pxy\:rel\:6 {
+    padding: 1.2rem 1.2rem;
+}
+
+.pxy\:rel\:7 {
+    padding: 1.4rem 1.4rem;
+}
+
+.pxy\:rel\:8 {
+    padding: 1.6rem 1.6rem;
+}
+
+.pxy\:rel\:9 {
+    padding: 1.8rem 1.8rem;
+}
+
+.pxy\:rel\:10 {
+    padding: 2rem 2rem;
+}
+
+.pxy\:rel\:11 {
+    padding: 2.2rem 2.2rem;
+}
+
+.pxy\:rel\:12 {
+    padding: 2.4rem 2.4rem;
+}
+
+.pxy\:rel\:13 {
+    padding: 2.6rem 2.6rem;
+}
+
+.pxy\:rel\:14 {
+    padding: 2.8rem 2.8rem;
+}
+
+.pxy\:rel\:15 {
+    padding: 3rem 3rem;
+}
+
+.pxy\:rel\:16 {
+    padding: 3.2rem 3.2rem;
+}
+
+.pxy\:rel\:17 {
+    padding: 3.4rem 3.4rem;
+}
+
+.pxy\:rel\:18 {
+    padding: 3.6rem 3.6rem;
+}
+
+.pxy\:rel\:19 {
+    padding: 3.8rem 3.8rem;
+}
+
+.pxy\:rel\:20 {
+    padding: 4rem 4rem;
+}
+
+.pxy\:rel\:21 {
+    padding: 4.2rem 4.2rem;
+}
+
+.pxy\:rel\:22 {
+    padding: 4.4rem 4.4rem;
+}
+
+.pxy\:rel\:23 {
+    padding: 4.6rem 4.6rem;
+}
+
+.pxy\:rel\:24 {
+    padding: 4.8rem 4.8rem;
+}
+
+.pxy\:rel\:25 {
+    padding: 5rem 5rem;
+}

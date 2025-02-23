@@ -1,0 +1,18 @@
+@import url('morning/background.css');
+@import url('morning/border.css');
+@import url('morning/hover.css');
+@import url('morning/icon.css');
+@import url('morning/shadow.css');
+@import url('morning/text.css');
+
+:root {
+    --morning-blue-100: hsl(191, 77%, 90%);
+    --morning-blue-200: hsl(191, 77%, 80%);
+    --morning-blue-300: hsl(191, 77%, 70%);
+    --morning-blue-400: hsl(191, 77%, 60%);
+    --morning-blue-500: hsl(191, 77%, 50%);
+    --morning-blue-600: hsl(191, 77%, 40%);
+    --morning-blue-700: hsl(191, 77%, 30%);
+    --morning-blue-800: hsl(191, 77%, 25%);
+    --morning-blue-900: hsl(191, 77%, 20%);
+}

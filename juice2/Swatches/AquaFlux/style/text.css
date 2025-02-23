@@ -1,0 +1,25 @@
+
+.tc-aqfx-light,
+.text-color--aqfx-light {
+    color: var(--aqfx-light);
+}
+
+.tc-aqfx-azure,
+.text-color--aqfx-azure {
+    color: var(--aqfx-azure);
+}
+
+.tc-aqfx-seafoam,
+.text-color--aqfx-seafoam {
+    color: var(--aqfx-seafoam);
+}
+
+.tc-aqfx-seaweed,
+.text-color--aqfx-seaweed {
+    color: var(--aqfx-seaweed);
+}
+
+.tc-aqfx-deep,
+.text-color--aqfx-deep {
+    color: var(--aqfx-deep);
+}

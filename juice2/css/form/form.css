@@ -1,0 +1,36 @@
+/* Core Element Styles */
+option, select, optgroup {
+    font-family: "korolev", sans-serif;
+    font-weight: 300;
+}
+
+input[type="search"]::placeholder, .ph\:indent {
+    text-indent: 25px;
+}
+
+.signup\:name{
+    height: 5vh;
+    width: 25vw;
+    border: none;
+}
+
+.signup\:name:valid{
+    border: green 1px solid;
+}
+
+.signup\:name:invalid{
+    border: red 1px solid;
+}
+
+/* Target data-jc-form */
+input[data-jc-form]{
+    border-radius: 0.5rem;
+    border-style: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+input[data-jc-form]:focus{
+    outline: 2px solid aqua;
+}

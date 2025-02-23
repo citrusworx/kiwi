@@ -1,0 +1,97 @@
+/* Hover Styles */
+
+.\:hover-onyx-100:hover, .\:hover.onyx-100:hover {
+    border-color: var(--onyx-100);
+    background-color: var(--onyx-100);
+}
+
+.\:hover-onyx-200:hover, .\:hover.onyx-200:hover {
+    border-color: var(--onyx-200);
+    background-color: var(--onyx-200);
+}
+
+.\:hover-onyx-300:hover, .\:hover.onyx-300:hover {
+    border-color: var(--onyx-300);
+    background-color: var(--onyx-300);
+}
+
+.\:hover-onyx-400:hover, .\:hover.onyx-400:hover {
+    border-color: var(--onyx-400);
+    background-color: var(--onyx-400);
+}
+
+.\:hover-onyx-500:hover, .\:hover.onyx-500:hover {
+    border-color: var(--onyx-500);
+    background-color: var(--onyx-500);
+}
+
+.\:hover-onyx-600:hover, .\:hover.onyx-600:hover {
+    border-color: var(--onyx-600);
+    background-color: var(--onyx-600);
+}
+
+.\:hover-onyx-700:hover, .\:hover.onyx-700:hover {
+    border-color: var(--onyx-700);
+    background-color: var(--onyx-700);
+}
+
+.\:hover-onyx-800:hover, .\:hover.onyx-800:hover {
+    border-color: var(--onyx-800);
+    background-color: var(--onyx-800);
+}
+
+.\:hover-onyx-900:hover, .\:hover.onyx-900:hover {
+    border-color: var(--onyx-900);
+    background-color: var(--onyx-900);
+}
+
+.\:hover-onyx-900\[white\]:hover{
+    border-color: var(--onyx-900);
+    background-color: var(--onyx-900);
+    color:var(--white-100);
+}
+
+.\:hover-onyx-100\[outline\]:hover, .\:hover.onyx-100\[outline\]:hover {
+    color: var(--onyx-100);
+    border-color: var(--onyx-100);
+}
+
+.\:hover-onyx-200\[outline\]:hover, .\:hover.onyx-200\[outline\]:hover {
+    color: var(--onyx-200);
+    border-color: var(--onyx-200);
+}
+
+.\:hover-onyx-300\[outline\]:hover, .\:hover.onyx-300\[outline\]:hover {
+    color: var(--onyx-300);
+    border-color: var(--onyx-300);
+}
+
+.\:hover-onyx-400\[outline\]:hover, .\:hover.onyx-400\[outline\]:hover {
+    color: var(--onyx-400);
+    border-color: var(--onyx-400);
+}
+
+.\:hover-onyx-500\[outline\]:hover, .\:hover.onyx-500\[outline\]:hover {
+    color: var(--onyx-500);
+    border-color: var(--onyx-500);
+}
+
+.\:hover-onyx-600\[outline\]:hover, .\:hover.onyx-600\[outline\]:hover {
+    color: var(--onyx-600);
+    border-color: var(--onyx-600);
+}
+
+.\:hover-onyx-700\[outline\]:hover, .\:hover.onyx-700\[outline\]:hover {
+    color: var(--onyx-700);
+    border-color: var(--onyx-700);
+}
+
+.\:hover-onyx-800\[outline\]:hover, .\:hover.onyx-800\[outline\]:hover {
+    color: var(--onyx-800);
+    border-color: var(--onyx-800);
+}
+
+.\:hover-onyx-900\[outline\]:hover, .\:hover.onyx-900\[outline\]:hover {
+    color: var(--onyx-900);
+    border-color: var(--onyx-900);
+}

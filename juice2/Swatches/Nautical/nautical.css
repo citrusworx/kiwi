@@ -1,0 +1,61 @@
+:root {
+    /* Nautical Compound */
+    --nautical-ocean: hsl(217, 78%, 49%);
+    --nautical-sunrise: hsl(52, 78%, 49%);
+    --nautical-coast: hsl(185, 78%, 49%);
+    --nautical-shipwreck: hsl(40, 48%, 49%);
+    --nautical-midnight: hsl(217, 45%, 38%); 
+}
+
+/* 
+
+Text Classes 
+
+*/
+
+.nautical\:primary {
+    color: var(--nautical-primary);
+}
+
+.nautical\:secondary {
+    color: var(--nautical-secondary);
+}
+
+.nautical\:tertiary {
+    color: var(--nautical-tertiary);
+}
+
+.nautical\:util {
+    color: var(--nautical-util);
+}
+
+.nautical\:dark {
+    color: var(--nautical-dark);
+}
+
+/* BG Classes */
+.bg-nautical\:primary {
+    background-color: var(--nautical-primary);
+}
+
+.bg-nautical\:secondary {
+    background-color: var(--nautical-secondary);
+}
+
+.bg-nautical\:tertiary {
+    background-color: var(--nautical-tertiary);
+}
+
+.bg-nautical\:util {
+    background-color: var(--nautical-util);
+}
+
+.bg-nautical\:dark {
+    background-color: var(--nautical-dark);
+}
+
+/* Grabient Nautical Find */
+.bg\:grad.nautical {
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+}

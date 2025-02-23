@@ -1,0 +1,97 @@
+/* Hover Styles */
+
+.\:hover-obsidian-100:hover, .\:hover.obsidian-100:hover {
+    border-color: var(--obsidian-100);
+    background-color: var(--obsidian-100);
+}
+
+.\:hover-obsidian-200:hover, .\:hover.obsidian-200:hover {
+    border-color: var(--obsidian-200);
+    background-color: var(--obsidian-200);
+}
+
+.\:hover-obsidian-300:hover, .\:hover.obsidian-300:hover {
+    border-color: var(--obsidian-300);
+    background-color: var(--obsidian-300);
+}
+
+.\:hover-obsidian-400:hover, .\:hover.obsidian-400:hover {
+    border-color: var(--obsidian-400);
+    background-color: var(--obsidian-400);
+}
+
+.\:hover-obsidian-500:hover, .\:hover.obsidian-500:hover {
+    border-color: var(--obsidian-500);
+    background-color: var(--obsidian-500);
+}
+
+.\:hover-obsidian-600:hover, .\:hover.obsidian-600:hover {
+    border-color: var(--obsidian-600);
+    background-color: var(--obsidian-600);
+}
+
+.\:hover-obsidian-700:hover, .\:hover.obsidian-700:hover {
+    border-color: var(--obsidian-700);
+    background-color: var(--obsidian-700);
+}
+
+.\:hover-obsidian-800:hover, .\:hover.obsidian-800:hover {
+    border-color: var(--obsidian-800);
+    background-color: var(--obsidian-800);
+}
+
+.\:hover-obsidian-900:hover, .\:hover.obsidian-900:hover {
+    border-color: var(--obsidian-900);
+    background-color: var(--obsidian-900);
+}
+
+.\:hover-obsidian-900\[white\]:hover{
+    border-color: var(--obsidian-900);
+    background-color: var(--obsidian-900);
+    color:var(--white-100);
+}
+
+.\:hover-obsidian-100\[outline\]:hover, .\:hover.obsidian-100\[outline\]:hover {
+    color: var(--obsidian-100);
+    border-color: var(--obsidian-100);
+}
+
+.\:hover-obsidian-200\[outline\]:hover, .\:hover.obsidian-200\[outline\]:hover {
+    color: var(--obsidian-200);
+    border-color: var(--obsidian-200);
+}
+
+.\:hover-obsidian-300\[outline\]:hover, .\:hover.obsidian-300\[outline\]:hover {
+    color: var(--obsidian-300);
+    border-color: var(--obsidian-300);
+}
+
+.\:hover-obsidian-400\[outline\]:hover, .\:hover.obsidian-400\[outline\]:hover {
+    color: var(--obsidian-400);
+    border-color: var(--obsidian-400);
+}
+
+.\:hover-obsidian-500\[outline\]:hover, .\:hover.obsidian-500\[outline\]:hover {
+    color: var(--obsidian-500);
+    border-color: var(--obsidian-500);
+}
+
+.\:hover-obsidian-600\[outline\]:hover, .\:hover.obsidian-600\[outline\]:hover {
+    color: var(--obsidian-600);
+    border-color: var(--obsidian-600);
+}
+
+.\:hover-obsidian-700\[outline\]:hover, .\:hover.obsidian-700\[outline\]:hover {
+    color: var(--obsidian-700);
+    border-color: var(--obsidian-700);
+}
+
+.\:hover-obsidian-800\[outline\]:hover, .\:hover.obsidian-800\[outline\]:hover {
+    color: var(--obsidian-800);
+    border-color: var(--obsidian-800);
+}
+
+.\:hover-obsidian-900\[outline\]:hover, .\:hover.obsidian-900\[outline\]:hover {
+    color: var(--obsidian-900);
+    border-color: var(--obsidian-900);
+}

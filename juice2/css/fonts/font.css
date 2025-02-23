@@ -1,0 +1,285 @@
+@import url('adobe.css');
+@import url('google.css');
+@import url('fontspace.css');
+
+.abril-fatface {
+    font-family: var(--abril-fatface);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.acme {
+    font-family: var(--acme);
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton {
+    font-family: var(--anton);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.architects-daughter {
+    font-family: var(--architects-daughter);
+    font-weight: 500;
+    font-style: cursive;
+}
+
+.archivo-black, .archivo\:black {
+    font-family: var(--archivo-black);
+    font-weight: 700;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.bebas-neue {
+    font-family: var(--bebas-neue);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bootle {
+    font-family: 'Bootle', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.caveat {
+    font-family: var(--caveat);
+    font-weight: 500;
+}
+
+.creamy-sugar {
+    font-family: 'Creamy Sugar', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.comfortaa {
+    font-family: var(--comfortaa);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dancing-script {
+    font-family: var(--dancing-script);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.digitalt {
+    font-family: 'Digitalt', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dubiel {
+    font-family: 'Dubiel';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.founder {
+    font-family: 'Founder';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.homemade-apple {
+    font-family: var(--homemade-apple);
+    font-weight: 400;
+}
+
+.indie-flower {
+    font-family: var(--indie-flower);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter {
+    font-family: var(--inter);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.josefin-sans, .josefin\:sans {
+    font-family: var(--josefin-sans);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kate-blues {
+    font-family: 'Kate Blues';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato {
+    font-family: var(--lato);
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lilita-one {
+    font-family: var(--lilita-one);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lobster {
+    font-family: var(--lobster);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.luckiest-guy {
+    font-family: var(--luckiest-guy);
+    font-weight: 700;
+}
+
+.macando {
+    font-family: var(--macando);
+    font-weight: 500;
+    font-style: cursive;
+}
+
+.montserrat {
+    font-family: var(--montserrat);
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nugo-sans {
+    font-family: 'Nugo Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: var(--open-sans);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans-bold {
+    font-family: var(--open-sans);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans-italic {
+    font-family: var(--open-sans);
+    font-size: 34px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.oswald {
+    font-family: var(--oswald);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pacifico {
+    font-family: var(--pacifico);
+    font-size: 34px;
+    font-weight: 700;
+    font-style: cursive;
+}
+
+.permanent-marker {
+    font-family: var(--permanent-marker);
+    font-style: cursive;
+}
+
+.play {
+    font-family: var(--play);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playfair-display{
+    font-family: var(--playfair-display);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins {
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins\:light, .poppins-light{
+    font-family: var(--poppins-light);
+    font-weight: 100;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: var(--raleway);
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.reenie-beanie {
+    font-family: var(--reenie-beanie);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto\:light\:italic{
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.satisfy {
+    font-family: var(--satisfy);
+    font-weight: 500;
+    font-style: cursive;
+}
+
+.source-code {
+    font-family: var(--source-code-pro);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium {
+    font-family: var(--titillium-web);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu {
+    font-family: var(--ubuntu);
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.yavonne {
+    font-family: var(--yanone-kaffeesatz);
+    font-weight: 700;
+    font-style: normal;
+}

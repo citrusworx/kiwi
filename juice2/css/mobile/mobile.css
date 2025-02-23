@@ -1,0 +1,9 @@
+/* import all config files here */
+
+
+/* Smart Phones */
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}

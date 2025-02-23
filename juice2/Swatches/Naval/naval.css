@@ -1,0 +1,61 @@
+:root {
+    --naval-navy: hsl();
+    --naval-blue: hsl();
+    --naval-gold: hsl();
+    --naval-cream: hsl();
+    --naval-white: hsl();
+
+    --naval-navy-hex: #0C356A;
+    --naval-blue-hex: #0174BE;
+    --naval-gold-hex: #FFC436;
+    --naval-cream-hex: #FFF0CE;
+    --naval-white-hex: #FAF9F7;
+
+    --naval-navy-rgb: rgb();
+    --naval-blue-rgb: rgb();
+    --naval-gold-rgb: rgb();
+    --naval-cream-rgb: rgb();
+    --naval-white-rgb: rgb();
+}
+
+/* Background Styles */
+.bg.naval\:navy {
+    background-color: var(--naval-navy-hex);
+}
+
+.bg.naval\:blue {
+    background-color: var(--naval-blue-hex);
+}
+
+.bg.naval\:gold {
+    background-color: var(--naval-gold-hex);
+}
+
+.bg.naval\:cream {
+    background-color: var(--naval-cream-hex);
+}
+
+.bg.naval\:white {
+    background-color: var(--naval-white-hex);
+}
+
+/* Text Stiles */
+.text\:naval\:navy {
+    color: var(--naval-navy-hex);
+}
+
+.text\:naval\:blue {
+    color: var(--naval-blue-hex);
+}
+
+.text\:naval\:gold {
+    color: var(--naval-gold-hex);
+}
+
+.text\:naval\:cream {
+    color: var(--naval-cream-hex);
+}
+
+.text\:naval\:white {
+    color: var(--naval-white-hex);
+}

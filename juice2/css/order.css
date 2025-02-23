@@ -1,0 +1,25 @@
+/* Ordering Styles */
+.front {
+    z-index: 1;
+}
+
+.mid {
+    z-index: 0;
+}
+
+.back {
+    z-index: -1;
+}
+
+.z\:inherit {
+    z-index: inherit;
+}
+
+
+.z\:initial {
+    z-index: initial;
+}
+
+.z\:unset {
+    z-index: unset;
+}

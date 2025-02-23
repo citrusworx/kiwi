@@ -1,0 +1,539 @@
+/* 
+        POSITIONING STYLES
+*/
+.relative {
+    position: relative;
+}
+
+.rel {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.static {
+    position: static;
+}
+
+.absolute, .abs {
+    position: absolute;
+}
+
+
+/* 
+        STACKING CLASSES
+ */
+ .top\:0 {
+    top: 0;
+ }
+
+.top\:1 {
+    top: 1vh;
+}
+
+.top\:2 {
+    top: 2vh;
+}
+
+.top\:3 {
+    top: 3vh;
+}
+
+.top\:4 {
+    top: 4vh;
+}
+
+.top\:5 {
+    top: 5vh;
+}
+
+.top\:6 {
+    top: 6vh;
+}
+
+.top\:7 {
+    top: 7vh;
+}
+
+.top\:8 {
+    top: 8vh;
+}
+
+.top\:9 {
+    top: 9vh;
+}
+
+.top\:10 {
+    top: 10vh;
+}
+
+.top\:11 {
+    top: 11vh;
+}
+
+.top\:12 {
+    top: 12vh;
+}
+
+.top\:13 {
+    top: 13vh;
+}
+
+.top\:14 {
+    top: 14vh;
+}
+
+.top\:15 {
+    top: 15vh;
+}
+
+.top\:16 {
+    top: 16vh;
+}
+
+.top\:17 {
+    top: 17vh;
+}
+
+.top\:18 {
+    top: 18vh;
+}
+
+.top\:19 {
+    top: 19vh;
+}
+
+.top\:20 {
+    top: 20vh;
+}
+
+.top\:21 {
+    top: 21vh;
+}
+
+.top\:22 {
+    top: 22vh;
+}
+
+.top\:23 {
+    top: 23vh;
+}
+
+.top\:24 {
+    top: 24vh;
+}
+
+.top\:25 {
+    top: 25vh;
+}
+
+.top\:26 {
+    top: 26vh;
+}
+
+.top\:27 {
+    top: 27vh;
+}
+
+.top\:28 {
+    top: 28vh;
+}
+
+.top\:29 {
+    top: 29vh;
+}
+
+.top\:30 {
+    top: 30vh;
+}
+
+.top\:31 {
+    top: 31vh;
+}
+
+.top\:100\% {
+    top: 100%;
+}
+
+/* LEFT */
+.left\:0 {
+    left: 0;
+}
+
+.left\:1 {
+    left: 1rem;
+}
+
+.left\:2 {
+    left: 2vw;
+}
+
+.left\:3 {
+    left: 3vw;
+}
+
+.left\:4 {
+    left: 4vw;
+}
+
+.left\:5 {
+    left: 5vw;
+}
+
+.left\:6 {
+    left: 2vw;
+}
+
+.left\:7 {
+    left: 7vw;
+}
+
+.left\:8 {
+    left: 8vw;
+}
+
+.left\:9 {
+    left: 9vw;
+}
+
+.left\:10 {
+    left: 10vw;
+}
+
+.left\:11 {
+    left:11rem;
+}
+
+.left\:12 {
+    left: 12vw;
+}
+
+.left\:13 {
+    left: 13vw;
+}
+
+.left\:14 {
+    left: 14vw;
+}
+
+.left\:15 {
+    left: 15vw;
+}
+
+.left\:16 {
+    left: 16vw;
+}
+
+.left\:17 {
+    left: 17vw;
+}
+
+.left\:18 {
+    left: 18vw;
+}
+
+.left\:19 {
+    left: 19vw;
+}
+
+.left\:20 {
+    left: 20vw;
+}
+
+.left\:20 {
+    left: 20vw;
+}
+
+.left\:21 {
+    left: 21vw;
+}
+
+.left\:22 {
+    left: 22vw;
+}
+
+.left\:23 {
+    left: 23vw;
+}
+
+.left\:24 {
+    left: 24vw;
+}
+
+.left\:25 {
+    left: 25vw;
+}
+
+.left\:26 {
+    left: 26vw;
+}
+
+.left\:27 {
+    left: 27vw;
+}
+
+.left\:28 {
+    left: 28vw;
+}
+
+.left\:29 {
+    left: 29vw;
+}
+
+.left\:30 {
+    left: 30vw;
+}
+
+.left\:31 {
+    left: 31vw;
+}
+
+.left\:32 {
+    left: 32vw;
+}
+
+.left\:33 {
+    left: 33vw;
+}
+
+.left\:34 {
+    left: 34vw;
+}
+
+.left\:35 {
+    left: 35vw;
+}
+
+.left\:36 {
+    left: 36vw;
+}
+
+.left\:37 {
+    left: 37vw;
+}
+
+.left\:38 {
+    left: 38vw;
+}
+
+.left\:39 {
+    left: 39vw;
+}
+
+.left\:40 {
+    left: 40vw;
+}
+
+
+
+/* 
+
+    RIGHT
+
+*/
+
+.right {
+    right: 0.2rem;
+}
+
+.bot {
+    bottom: 0.2rem;
+}
+
+
+/* 
+        TRANSLATION CLASSES
+ */
+
+ /* to right --> */
+.trans\:x\:1 {
+    transform: translateX(1vw);
+}
+
+.trans\:x\:2 {
+    transform: translateX(2vw);
+}
+
+.trans\:x\:3 {
+    transform: translateX(3vw);
+}
+
+.trans\:x\:4 {
+    transform: translateX(4vw);
+}
+
+.trans\:x\:5 {
+    transform: translateX(5vw);
+}
+
+/* <-- to left */
+
+.trans\:x\:\-1 {
+    transform: translateX(-1vw);
+}
+
+.trans\:x\:\-2 {
+    transform: translateX(-2vw);
+}
+
+.trans\:x\:\-3 {
+    transform: translateX(-3vw);
+}
+
+.trans\:x\:\-4 {
+    transform: translateX(-4vw);
+}
+
+.trans\:x\:\-5 {
+    transform: translateX(-5vw);
+}
+
+/* 
+|
+|   downwards
+v
+*/
+
+.trans\:y\:1 {
+    transform: translateY(1vh);
+}
+
+.trans\:y\:2 {
+    transform: translateY(2vh);
+}
+
+.trans\:y\:3 {
+    transform: translateY(3vh);
+}
+
+.trans\:y\:4 {
+    transform: translateY(4vh);
+}
+
+.trans\:y\:5 {
+    transform: translateY(5vh);
+}
+
+/* 
+^   
+|   upwards
+|
+*/
+.trans\:y\:\-1 {
+    transform: translateY(-1vh);
+}
+
+.trans\:y\:\-2 {
+    transform: translateY(-2vh);
+}
+
+.trans\:y\:\-3 {
+    transform: translateY(-3vh);
+}
+
+.trans\:y\:\-4 {
+    transform: translateY(-4vh);
+}
+
+.trans\:y\:\-5 {
+    transform: translateY(-5vh);
+}
+
+/* Approach  */
+.trans\:z\:1 {
+    transform: translateZ(1rem);
+}
+
+.trans\:z\:2 {
+    transform: translateZ(2rem);
+}
+
+.trans\:z\:3 {
+    transform: translateZ(3rem);
+}
+
+.trans\:z\:4 {
+    transform: translateZ(4rem);
+}
+
+.trans\:z\:5 {
+    transform: translateZ(5rem);
+}
+
+/* Away */
+.trans\:z\:\-1 {
+    transform: translateZ(-1rem);
+}
+
+.trans\:z\:\-2 {
+    transform: translateZ(-2rem);
+}
+
+.trans\:z\:\-3 {
+    transform: translateZ(-3rem);
+}
+
+.trans\:z\:\-4 {
+    transform: translateZ(-4rem);
+}
+
+.trans\:z\:\-5 {
+    transform: translateZ(-5rem);
+}
+
+/* 
+    COMBO TRANSFORM
+*/
+
+/* 
+- TODO: Create more combo transforms
+
+*/
+
+.trans\:xy\:1 {
+    transform: translate3D(1vh, 1vh, 0);
+}
+
+.trans\:xy\:2 {
+    transform: translate3D(2vh, 2vh, 0);
+}
+
+.trans\:xy\:3 {
+    transform: translate3D(3vh, 3vh, 0);
+}
+
+.trans\:xy\:4 {
+    transform: translate3D(4vh, 4vh, 0);
+}
+
+.trans\:xy\:5 {
+    transform: translate3D(5vh, 5vh, 0);
+}
+
+/* 
+^   
+|   upwards
+|
+*/
+.trans\:xy\:\-1 {
+    transform: translate3D(-1vh, -1vh, 0);
+}
+
+.trans\:xy\:\-2 {
+    transform: translate3D(-2vh, -2vh, 0);
+}
+
+.trans\:xy\:\-3 {
+    transform: translate3D(-3vh, -3vh, 0);
+}
+
+.trans\:xy\:\-4 {
+    transform: translate3D(-4vh, -4vh, 0);
+}
+
+.trans\:xy\:\-5 {
+    transform: translate3D(-5vh, -5vh, 0);
+}

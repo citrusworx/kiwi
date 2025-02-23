@@ -1,0 +1,17 @@
+/* mt:2 ml:rel:2 p:rel:2 */
+.heading {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.padded {
+    padding: 2rem;
+}
+
+[class="the margin is five"]{
+    margin: 5px;
+}
+
+[class="the pen is blue"]{
+    color: blue;
+}

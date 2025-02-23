@@ -1,0 +1,13 @@
+:root {
+    --black-down-100: linear-gradient(to bottom, hsl(0, 0%, 11%), hsl(0,0%, 5%));
+    --black-down-200: linear-gradient(to bottom, hsl(0, 0%, 10%), hsl(0, 0%, 5%));
+
+}
+
+.grad--black-down-100 {
+    background: var(--black-down-100);
+}
+
+.grad--black-down-200 {
+    background: var(--black-down-200);
+}

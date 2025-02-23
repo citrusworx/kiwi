@@ -1,0 +1,18 @@
+@import url('freshgreen/background.css');
+@import url('freshgreen/border.css');
+@import url('freshgreen/hover.css');
+@import url('freshgreen/icon.css');
+@import url('freshgreen/shadow.css');
+@import url('freshgreen/text.css');
+
+:root {
+    --fresh-green-100: hsl(121, 100%, 90%);
+    --fresh-green-200: hsl(121, 100%, 80%);
+    --fresh-green-300: hsl(121, 100%, 70%);
+    --fresh-green-400: hsl(121, 100%, 60%);
+    --fresh-green-500: hsl(121, 100%, 50%);
+    --fresh-green-600: hsl(121, 100%, 40%);
+    --fresh-green-700: hsl(121, 100%, 30%);
+    --fresh-green-800: hsl(121, 100%, 25%);
+    --fresh-green-900: hsl(121, 100%, 20%);
+}

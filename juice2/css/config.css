@@ -1,0 +1,99 @@
+@import url('normalize.css');
+@import url('fonts/font.css'); /* Font Config File */
+@import url('color/color.css'); /* :root config file  */
+@import url('gradient/gradient.css'); /* :root config file  */
+@import url('swatch.css'); /* Root config file */
+@import url('icon/icons.css'); /* Root config file */
+@import url('animate/animate.css'); /* Start Class Stile Files */
+@import url('state.css');
+@import url('height/height.css');
+@import url('width/width.css');
+@import url('styling.css');
+@import url('display.css');
+@import url('spacing.css');
+@import url('position.css');
+@import url('order.css');
+@import url('form/form.css');
+@import url('flex.css');
+@import url('text/text.css');
+@import url('grid/grid.css');
+@import url('code.css');
+@import url('background.css');
+@import url('textures/texture.css');
+@import url('component/menus/menu.css');
+@import url('highlight/highlight.css');  /* End Class Stile File */
+@import url('component/component.css');
+@import url('desktop/desktop.css'); /* Responsive Library 1 of 3 */
+@import url('mobile/mobile.css'); /* Responsive Library 2 of 3 */
+@import url('tablet/tablet.css'); /* Responsive Library 3 of 3 */
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+  width: 100%;
+}
+
+table, tr, th {
+    overflow-x: scroll;
+}
+
+footer {
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+/* p[class] {
+    overflow-y: hidden;
+} */
+
+
+.shell {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .shell {
+        display: flex;
+        flex-direction: column;
+        margin: 0 .5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.8vw;
+    }
+
+    .wrapper {
+        padding: 0.8vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .shell {
+        display: flex;
+        flex-direction: column;
+        margin: 0 .5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.8vw;
+    }
+
+    .wrapper {
+        padding: 0.8vw;
+    }
+}

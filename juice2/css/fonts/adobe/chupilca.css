@@ -1,0 +1,13 @@
+@import url("https://use.typekit.net/mlu8med.css");
+
+.chupilca {
+    font-family: "chupilca-background", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.chupilca\:fat {
+    font-family: "chupilca-fat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}

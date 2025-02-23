@@ -1,0 +1,58 @@
+:root {
+    --plumpkin-plum: hsl(250, 97%, 26%);
+    --plumpkin-lavender: hsl(253, 68%, 50%);
+    --plumpkin-lilac: hsl(239, 43%, 49%);
+    --plumpkin-peach: hsl(34, 50%, 70%);
+    --plumpkin-seed: hsl(39, 49%, 83%);
+
+    /* RGB */
+
+    /* HEX */
+
+    /* TODO: Define Gradients */
+}
+
+/* BG Styles */
+.bg\:color\:\:plumpkin-plum, .bg\:color.plumpkin-plum {
+    background-color: var(--plumpkin-plum);
+}
+
+.bg\:color\:\:plumpkin-lavender, .bg\:color.plumpkin-lavender {
+    background-color: var(--plumpkin-lavender);
+}
+
+.bg.plumpkin\:lilac {
+    background-color: var(--plumpkin-lilac);
+}
+
+.bg\:color\:\:plumpkin-peach  {
+    background-color: var(--plumpkin-peach);
+}
+
+.bg.plumpkin\:seed {
+    background-color: var(--plumpkin-seed);
+}
+
+/* Text Styles */
+
+.text\:plumpkin\:plum {
+    color: var(--plumpkin-plum);
+}
+
+.text\:plumpkin\:lavender {
+    color: var(--plumpkin-lavender);
+}
+
+.text\:plumpkin\:lilac {
+    color: var(--plumpkin-lilac);
+}
+
+.text\:plumpkin\:peach {
+    color: var(--plumpkin-peach);
+}
+
+.text\:plumpkin\:seed {
+    color: var(--plumpkin-seed);
+}
+/* Icon Styles */
+/* TODO: Define icon/gradients */

@@ -1,0 +1,25 @@
+@import url('hero/hero.css');
+@import url("icon/icon.css");
+@import url('text/heading.css');
+@import url('text/editor.css');
+@import url('banner/banner.css');
+@import url('button/button.css');
+@import url('card/card.css');
+@import url('card/mobile.css');
+@import url('nav/nav.css');
+
+.row {
+    display: grid;
+}
+
+.row-fluid {
+    display: flex;
+}
+
+.row {
+    .col {
+        display: grid;
+        /* create dynamic column */
+        grid-template-columns: repeat(30vw, minmax(20vw, 1fr));
+    }
+}

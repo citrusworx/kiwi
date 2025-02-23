@@ -1,0 +1,18 @@
+@import url('royal/background.css');
+@import url('royal/border.css');
+@import url('royal/hover.css');
+@import url('royal/icon.css');
+@import url('royal/shadow.css');
+@import url('royal/text.css');
+
+:root {
+    --royal-100: hsl(223, 100%, 70%);
+    --royal-200: hsl(223, 100%, 64%);
+    --royal-300: hsl(223, 100%, 58%);
+    --royal-400: hsl(223, 100%, 52%);
+    --royal-500: hsl(223, 100%, 46%);
+    --royal-600: hsl(223, 100%, 40%);
+    --royal-700: hsl(223, 100%, 34%);
+    --royal-800: hsl(223, 100%, 28%);
+    --royal-900: hsl(223, 100%, 22%);
+}

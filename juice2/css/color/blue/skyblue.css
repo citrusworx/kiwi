@@ -1,0 +1,19 @@
+@import url('skyblue/background.css');
+@import url('skyblue/border.css');
+@import url('skyblue/hover.css');
+@import url('skyblue/icon.css');
+@import url('skyblue/shadow.css');
+@import url('skyblue/text.css');
+
+
+:root {
+    --sky-blue-100: hsl(210, 100%, 80%);
+    --sky-blue-200: hsl(210, 100%, 70%);
+    --sky-blue-300: hsl(210, 100%, 60%);
+    --sky-blue-400: hsl(210, 100%, 50%);
+    --sky-blue-500: hsl(210, 100%, 40%);
+    --sky-blue-600: hsl(210, 100%, 30%);
+    --sky-blue-700: hsl(210, 100%, 25%);
+    --sky-blue-800: hsl(210, 100%, 20%);
+    --sky-blue-900: hsl(210, 100%, 15%);
+}

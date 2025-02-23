@@ -1,0 +1,9 @@
+/* Shadow Stiles */
+
+.text\:shadow.md.light-blur {
+    text-shadow: 5px 3px 3px var(--black-200);
+}
+
+.text\:shadow.md.med-blur {
+    text-shadow: 3px 3px 2px var(--black-400);
+}

@@ -1,0 +1,33 @@
+@import url('adobe/grange.css');
+@import url('adobe/poppins.css');
+@import url('adobe/ballinger.css');
+@import url('adobe/alientz.css');
+@import url('adobe/map-roman.css');
+@import url('adobe/private-sans.css');
+@import url('adobe/pelago.css');
+@import url('adobe/darka.css');
+@import url('adobe/chupilca.css');
+@import url('adobe/sting.css');
+
+:root {
+
+    /* Fonts */
+    --primary-font: 'Korolev Rounded Medium';
+    --light-font: 'Korolev Rounded Thin';
+    --thin-font:  'Korolev Rounded Light';
+    --bold-font: 'Korolev Rounded Bold';
+    --heavy-font: 'Korolev Rounded Heavy';
+
+}
+
+/* Brand */
+
+.korolev-rounded, .korolev.rounded {
+    font-family: var(--primary-font);
+}
+
+.korolev\:light,
+.korolev-light
+{
+    font-family: var(--light-font);
+}

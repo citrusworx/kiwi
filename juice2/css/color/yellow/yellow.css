@@ -1,0 +1,22 @@
+@import url('dandelion.css');
+
+/* Element Styles */
+@import url('yellow/background.css');
+@import url('yellow/border.css');
+@import url('yellow/hover.css');
+@import url('yellow/icon.css');
+@import url('yellow/shadow.css');
+@import url('yellow/text.css');
+
+:root {
+    /* Yellows */
+    --yellow-100: hsl(60, 100%, 95%);
+    --yellow-200: hsl(60, 100%, 90%);
+    --yellow-300: hsl(60, 100%, 85%);
+    --yellow-400: hsl(60, 100%, 80%);
+    --yellow-500: hsl(60, 100%, 75%);
+    --yellow-600: hsl(60, 100%, 70%);
+    --yellow-700: hsl(60, 100%, 65%);
+    --yellow-800: hsl(60, 100%, 60%);
+    --yellow-900: hsl(60, 100%, 55%);
+}

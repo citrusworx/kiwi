@@ -1,0 +1,35 @@
+/* 
+
+    Link STYLES
+
+*/
+
+.link\:primary {
+    color: var(--orange-300);
+    text-decoration: none;
+}
+
+.link\:primary:active {
+    color: var(--orange-500);
+    text-decoration: none;
+}
+
+.link\:primary:hover {
+    color: var(--orange-700);
+    text-decoration: none;
+}
+
+.link\:primary:visited {
+    color: var(--creamsicle-200);
+    text-decoration: none;
+}
+
+.link\:light {
+    color: var(--white-200);
+    text-decoration: none;
+}
+
+.link\:light:hover {
+    color: var(--white-400);
+    text-decoration: none;
+}

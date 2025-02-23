@@ -1,0 +1,27 @@
+/* State Component Styles */
+
+.bg-alert, .bg\:alert {
+    background-color: var(--danger);
+}
+
+.text-alert, .text\:alert {
+    color: var(--danger)
+}
+
+.text-alert:hover, .text\:alert:hover {
+    color: var(--red-500);
+}
+
+.alert:hover {
+    background-color: var(--red-500);
+}
+
+.info {
+    background-color: var(--info);
+}
+
+.danger {
+    background-color: var(--danger);
+}
+
+/* State Styles */

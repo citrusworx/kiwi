@@ -1,0 +1,22 @@
+@import url('creamsicle.css');
+@import url('peach.css');   
+
+/* Element Styles */
+@import url('orange/background.css');
+@import url('orange/border.css');
+@import url('orange/hover.css');
+@import url('orange/icon.css');
+@import url('orange/shadow.css');
+@import url('orange/text.css');
+
+:root {
+    --orange-100: hsl(20, 100%, 97%);
+    --orange-200: hsl(20, 100%, 90%);
+    --orange-300: hsl(20, 100%, 85%);
+    --orange-400: hsl(20, 100%, 75%);
+    --orange-500: hsl(20, 100%, 60%);
+    --orange-600: hsl(20, 100%, 50%);
+    --orange-700: hsl(20, 100%, 40%);
+    --orange-800: hsl(20, 100%, 35%);
+    --orange-900: hsl(20, 100%, 25%);
+}

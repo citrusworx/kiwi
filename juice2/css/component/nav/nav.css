@@ -1,0 +1,37 @@
+.navstrip {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vwx;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbox {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* flex gap-3 space-between items-center justify-center */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,0 +1,82 @@
+/* obsidian */
+.bg-color--obsidian-100,
+.bg-color.obsidian-100,
+.bg\:color\:\:obsidian-100,
+.bg\:color.obsidian\:100,
+.bgc\:obsidian\:100,
+.bgc-obsidian-100
+{
+    background-color: var(--obsidian-100);
+}
+
+.bg-color--obsidian-200,
+.bg-color.obsidian-200,
+.bg\:color\:\:obsidian-200,
+.bg\:color.obsidian\:200,
+.bgc\:obsidian\:200,
+.bgc-obsidian-200 {
+    background-color: var(--obsidian-200);
+}
+
+.bg-color--obsidian-300,
+.bg-color.obsidian-300,
+.bg\:color\:\:obsidian-300,
+.bg\:color.obsidian\:300,
+.bgc\:obsidian\:300,
+.bgc-obsidian-300 {
+    background-color: var(--obsidian-300);
+}
+
+.bg-color--obsidian-400,
+.bg-color.obsidian-400,
+.bg\:color\:\:obsidian-400,
+.bg\:color.obsidian\:400,
+.bgc\:obsidian\:400,
+.bgc-obsidian-400 {
+    background-color: var(--obsidian-400);
+}
+
+.bg-color--obsidian-500,
+.bg-color.obsidian-500,
+.bg\:color\:\:obsidian-500,
+.bg\:color.obsidian\:500,
+.bgc\:obsidian\:500,
+.bgc-obsidian-500 {
+    background-color: var(--obsidian-500);
+}
+
+.bg-color--obsidian-600,
+.bg-color.obsidian-600,
+.bg\:color\:\:obsidian-600,
+.bg\:color.obsidian\:600,
+.bgc\:obsidian\:600,
+.bgc-obsidian-600 {
+    background-color: var(--obsidian-600);
+}
+
+.bg-color--obsidian-700,
+.bg-color.obsidian-700,
+.bg\:color\:\:obsidian-700,
+.bg\:color.obsidian\:700,
+.bgc\:obsidian\:700,
+.bgc-obsidian-700 {
+    background-color: var(--obsidian-700);
+}
+
+.bg-color--obsidian-800,
+.bg-color.obsidian-800,
+.bg\:color\:\:obsidian-800,
+.bg\:color.obsidian\:800,
+.bgc\:obsidian\:800,
+.bgc-obsidian-800 {
+    background-color: var(--obsidian-800);
+}
+
+.bg-color--obsidian-900,
+.bg-color.obsidian-900,
+.bg\:color\:\:obsidian-900,
+.bg\:color.obsidian\:900,
+.bgc\:obsidian\:900,
+.bgc-obsidian-900 {
+    background-color: var(--obsidian-900);
+}

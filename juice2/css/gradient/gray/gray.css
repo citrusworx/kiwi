@@ -1,0 +1,7 @@
+:root {
+    --grad-gray-down-100: linear-gradient(to bottom, hsl(0, 0%, 79%), hsl(0, 0%, 67%));
+}
+
+.grad--gray-100\:\:down {
+    background: var(--grad-gray-down-100);
+}

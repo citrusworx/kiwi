@@ -1,0 +1,22 @@
+:root {
+    --slate-blue-500: linear-gradient(
+        to top,
+        hsla(203, 34%, 24%, 1), 
+        hsla(203, 25%, 32%, 1), 
+        hsla(203, 20%, 39%, 1), 
+        hsla(203, 17%, 47%, 1), 
+        hsla(203, 18%, 55%, 1)
+    );
+
+    --elec-blue-down: linear-gradient(to bottom, hsl(212, 100%, 50%), hsl(226, 100%, 44%));
+}
+
+.bgr\:90.slate-blue-500,
+.bgr\:90.slate\:blue\:500
+{
+    background: var(--slate-blue-500);
+}
+
+.grad--elec-blue-down {
+    background: var(--elec-blue-down);
+}

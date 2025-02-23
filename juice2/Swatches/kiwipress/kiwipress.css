@@ -1,0 +1,11 @@
+:root {
+    --kp-primary: hsl(156, 88%, 61%);
+    --kp-secondary: hsl(173, 77%, 52%);
+
+    --kp-danger: hsl(0, 82%, 64%);
+    --kp-warning: hsl();
+    --kp-info: hsl(28, 100%, 63%);
+    --kp-dark: hsl(0, 0%, 28%);
+    --kp-light: hsl(0, 0%, 95%);
+    --kp-gray: hsl(0, 0%, 75%);
+}

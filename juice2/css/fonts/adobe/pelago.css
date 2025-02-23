@@ -1,0 +1,21 @@
+@import url("https://use.typekit.net/mlu8med.css");
+
+.pelago\:light {
+    font-family: "pelago-variable", sans-serif;
+    font-variation-settings: "wght" 200;
+}
+
+.pelago {
+    font-family: "pelago-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+}
+
+.pelago\:bold {
+    font-family: "pelago-variable", sans-serif;
+    font-variation-settings: "wght" 700;
+}
+
+.pelago\:heavy {
+    font-family: "pelago-variable", sans-serif;
+    font-variation-settings: "wght" 600;
+}

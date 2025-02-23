@@ -1,0 +1,7 @@
+:root {
+    --grad-white-down-100: linear-gradient(to bottom, hsl(0, 0%, 100%), hsl(0, 0%, 92%));
+}
+
+.grad--white-down-100 {
+    background: var(--grad-white-down-100);
+}
